@@ -1,0 +1,16 @@
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\bin\Debug\UMS.exe.config
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\bin\Debug\UMS.exe
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\bin\Debug\UMS.pdb
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\bin\Debug\System.Data.SQLite.dll
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\bin\Debug\System.Data.SQLite.xml
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.csproj.AssemblyReference.cache
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.Loginform.resources
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.Properties.Resources.resources
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.View.MainDashboardForm.resources
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.Signinform.resources
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.csproj.GenerateResource.cache
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.csproj.Up2Date
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.exe
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.pdb
+C:\Users\DELL\Documents\Unicom Tic\pro\UMS\UMS\obj\Debug\UMS.exe.config
