@@ -30,21 +30,21 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.profilepiclable = new System.Windows.Forms.Label();
-            this.profilepictureBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.logoutbtn = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.settingbtn = new System.Windows.Forms.Button();
+            this.roombtn = new System.Windows.Forms.Button();
+            this.exambtn = new System.Windows.Forms.Button();
             this.studentbtn = new System.Windows.Forms.Button();
             this.coursebtn = new System.Windows.Forms.Button();
             this.userbtn = new System.Windows.Forms.Button();
+            this.profilepictureBox = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilepictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -70,15 +70,6 @@
             this.profilepiclable.Text = "label2";
             this.profilepiclable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // profilepictureBox
-            // 
-            this.profilepictureBox.Location = new System.Drawing.Point(1333, 3);
-            this.profilepictureBox.Name = "profilepictureBox";
-            this.profilepictureBox.Size = new System.Drawing.Size(166, 155);
-            this.profilepictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.profilepictureBox.TabIndex = 22;
-            this.profilepictureBox.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -91,23 +82,13 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "Unicom TIC Management System";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::UMS.Properties.Resources.unicom_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(286, 193);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.panel2.Controls.Add(this.logoutbtn);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.settingbtn);
+            this.panel2.Controls.Add(this.roombtn);
+            this.panel2.Controls.Add(this.exambtn);
             this.panel2.Controls.Add(this.studentbtn);
             this.panel2.Controls.Add(this.coursebtn);
             this.panel2.Controls.Add(this.userbtn);
@@ -119,67 +100,121 @@
             // 
             // logoutbtn
             // 
+            this.logoutbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.logoutbtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.logoutbtn.ForeColor = System.Drawing.Color.Maroon;
+            this.logoutbtn.Image = global::UMS.Properties.Resources.logout;
+            this.logoutbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.logoutbtn.Location = new System.Drawing.Point(12, 494);
             this.logoutbtn.Name = "logoutbtn";
-            this.logoutbtn.Size = new System.Drawing.Size(268, 52);
+            this.logoutbtn.Size = new System.Drawing.Size(268, 64);
             this.logoutbtn.TabIndex = 5;
             this.logoutbtn.Text = "Logout";
-            this.logoutbtn.UseVisualStyleBackColor = true;
+            this.logoutbtn.UseVisualStyleBackColor = false;
             this.logoutbtn.Click += new System.EventHandler(this.logoutbtn_Click);
             // 
-            // button6
+            // settingbtn
             // 
-            this.button6.Location = new System.Drawing.Point(12, 418);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(268, 52);
-            this.button6.TabIndex = 2;
-            this.button6.Text = "Setting";
-            this.button6.UseVisualStyleBackColor = true;
+            this.settingbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.settingbtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.settingbtn.ForeColor = System.Drawing.Color.Maroon;
+            this.settingbtn.Image = global::UMS.Properties.Resources.setting;
+            this.settingbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.settingbtn.Location = new System.Drawing.Point(12, 418);
+            this.settingbtn.Name = "settingbtn";
+            this.settingbtn.Size = new System.Drawing.Size(268, 64);
+            this.settingbtn.TabIndex = 2;
+            this.settingbtn.Text = "Setting";
+            this.settingbtn.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // roombtn
             // 
-            this.button5.Location = new System.Drawing.Point(12, 339);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(268, 52);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Rooms";
-            this.button5.UseVisualStyleBackColor = true;
+            this.roombtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.roombtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roombtn.ForeColor = System.Drawing.Color.Maroon;
+            this.roombtn.Image = global::UMS.Properties.Resources.room;
+            this.roombtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.roombtn.Location = new System.Drawing.Point(12, 339);
+            this.roombtn.Name = "roombtn";
+            this.roombtn.Size = new System.Drawing.Size(268, 64);
+            this.roombtn.TabIndex = 4;
+            this.roombtn.Text = "Rooms";
+            this.roombtn.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // exambtn
             // 
-            this.button4.Location = new System.Drawing.Point(12, 258);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(268, 52);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Exams & Marks";
-            this.button4.UseVisualStyleBackColor = true;
+            this.exambtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.exambtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.exambtn.ForeColor = System.Drawing.Color.Maroon;
+            this.exambtn.Image = global::UMS.Properties.Resources.exam;
+            this.exambtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.exambtn.Location = new System.Drawing.Point(12, 258);
+            this.exambtn.Name = "exambtn";
+            this.exambtn.Size = new System.Drawing.Size(268, 64);
+            this.exambtn.TabIndex = 3;
+            this.exambtn.Text = "Exams & Marks";
+            this.exambtn.UseVisualStyleBackColor = false;
             // 
             // studentbtn
             // 
+            this.studentbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.studentbtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentbtn.ForeColor = System.Drawing.Color.Maroon;
+            this.studentbtn.Image = global::UMS.Properties.Resources.student;
+            this.studentbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.studentbtn.Location = new System.Drawing.Point(12, 179);
             this.studentbtn.Name = "studentbtn";
-            this.studentbtn.Size = new System.Drawing.Size(268, 52);
+            this.studentbtn.Size = new System.Drawing.Size(268, 64);
             this.studentbtn.TabIndex = 2;
             this.studentbtn.Text = "Student";
-            this.studentbtn.UseVisualStyleBackColor = true;
+            this.studentbtn.UseVisualStyleBackColor = false;
             // 
             // coursebtn
             // 
+            this.coursebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.coursebtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.coursebtn.ForeColor = System.Drawing.Color.Maroon;
+            this.coursebtn.Image = global::UMS.Properties.Resources.course;
+            this.coursebtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.coursebtn.Location = new System.Drawing.Point(12, 104);
             this.coursebtn.Name = "coursebtn";
-            this.coursebtn.Size = new System.Drawing.Size(268, 52);
+            this.coursebtn.Size = new System.Drawing.Size(268, 64);
             this.coursebtn.TabIndex = 1;
             this.coursebtn.Text = "Course & Subject";
-            this.coursebtn.UseVisualStyleBackColor = true;
+            this.coursebtn.UseVisualStyleBackColor = false;
             // 
             // userbtn
             // 
+            this.userbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.userbtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userbtn.ForeColor = System.Drawing.Color.Maroon;
+            this.userbtn.Image = global::UMS.Properties.Resources.user;
+            this.userbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.userbtn.Location = new System.Drawing.Point(12, 27);
             this.userbtn.Name = "userbtn";
-            this.userbtn.Size = new System.Drawing.Size(268, 52);
+            this.userbtn.Size = new System.Drawing.Size(268, 64);
             this.userbtn.TabIndex = 0;
             this.userbtn.Text = "User";
-            this.userbtn.UseVisualStyleBackColor = true;
+            this.userbtn.UseVisualStyleBackColor = false;
+            // 
+            // profilepictureBox
+            // 
+            this.profilepictureBox.Location = new System.Drawing.Point(1333, 3);
+            this.profilepictureBox.Name = "profilepictureBox";
+            this.profilepictureBox.Size = new System.Drawing.Size(166, 155);
+            this.profilepictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.profilepictureBox.TabIndex = 22;
+            this.profilepictureBox.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::UMS.Properties.Resources.unicom_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(286, 193);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // MainDashboardForm
             // 
@@ -193,9 +228,9 @@
             this.Text = "MainDashboardForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.profilepictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -209,9 +244,9 @@
         private System.Windows.Forms.PictureBox profilepictureBox;
         private System.Windows.Forms.Label profilepiclable;
         private System.Windows.Forms.Button logoutbtn;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button settingbtn;
+        private System.Windows.Forms.Button roombtn;
+        private System.Windows.Forms.Button exambtn;
         private System.Windows.Forms.Button studentbtn;
         private System.Windows.Forms.Button coursebtn;
         private System.Windows.Forms.Button userbtn;

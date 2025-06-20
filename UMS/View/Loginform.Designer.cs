@@ -71,6 +71,8 @@
             this.loginbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(119)))), ((int)(((byte)(242)))));
             this.loginbtn.Font = new System.Drawing.Font("Arial", 22.2F, System.Drawing.FontStyle.Bold);
             this.loginbtn.ForeColor = System.Drawing.Color.White;
+            this.loginbtn.Image = global::UMS.Properties.Resources.login;
+            this.loginbtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.loginbtn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.loginbtn.Location = new System.Drawing.Point(628, 455);
             this.loginbtn.Name = "loginbtn";
