@@ -8,7 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UMS.Controller;
 using UMS.Model;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace UMS.View
 {
@@ -31,7 +33,6 @@ namespace UMS.View
             _user = new UserProfile { FullName = "Test User", Role = "student", ProfilePic = null };
             SetupDashboard();
         }
-
         private void SetupDashboard()
         {
             profilepiclable.Text = $"Hello, {_user.FullName}";
@@ -112,7 +113,7 @@ namespace UMS.View
 
         private void settingbtn_Click(object sender, EventArgs e)
         {
-            LoadForm(new SettingForm());
+            LoadForm(new SettingForm(_user));
         }
     }
 

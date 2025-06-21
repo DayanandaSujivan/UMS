@@ -44,7 +44,6 @@ namespace UMS.Controller
             {
                 try
                 {
-                    // Insert user account
                     string userInsertQuery = @"
                         INSERT INTO Users (Username, Password, Role) 
                         VALUES (@Username, @Password, @Role);
@@ -59,34 +58,18 @@ namespace UMS.Controller
                         userId = Convert.ToInt32(cmd.ExecuteScalar());
                     }
 
-                    // Determine insert query based on role
                     string roleInsertQuery = "";
                     if (handle.Role.ToLower() == "student")
-                    {
-                        roleInsertQuery = @"INSERT INTO Students (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) 
-                                            VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
-                    }
+                        roleInsertQuery = "INSERT INTO Students (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
                     else if (handle.Role.ToLower() == "admin")
-                    {
-                        roleInsertQuery = @"INSERT INTO Admins (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) 
-                                            VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
-                    }
+                        roleInsertQuery = "INSERT INTO Admins (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
                     else if (handle.Role.ToLower() == "staff")
-                    {
-                        roleInsertQuery = @"INSERT INTO Staff (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) 
-                                            VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
-                    }
+                        roleInsertQuery = "INSERT INTO Staff (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
                     else if (handle.Role.ToLower() == "lecturer")
-                    {
-                        roleInsertQuery = @"INSERT INTO Lecturers (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) 
-                                            VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
-                    }
+                        roleInsertQuery = "INSERT INTO Lecturers (UserID, NIC, FullName, Phone, Email, Address, DOB, ProfilePic) VALUES (@UserID, @NIC, @FullName, @Phone, @Email, @Address, @DOB, @ProfilePic)";
                     else
-                    {
                         throw new Exception("Invalid role");
-                    }
 
-                    // Insert into specific role table
                     using (var cmd = new SQLiteCommand(roleInsertQuery, conn))
                     {
                         cmd.Parameters.AddWithValue("@UserID", userId);
@@ -100,7 +83,6 @@ namespace UMS.Controller
                         cmd.ExecuteNonQuery();
                     }
 
-                    // Update pre_register status
                     using (var cmd = new SQLiteCommand("UPDATE pre_register SET Status = 1 WHERE NIC = @NIC", conn))
                     {
                         cmd.Parameters.AddWithValue("@NIC", handle.NIC);
@@ -122,7 +104,7 @@ namespace UMS.Controller
         {
             using (var conn = DatabaseConnection.GetConnection())
             {
-                string query = @"SELECT Role FROM Users WHERE Username = @username AND Password = @password";
+                string query = "SELECT Role FROM Users WHERE Username = @username AND Password = @password";
 
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
@@ -141,6 +123,7 @@ namespace UMS.Controller
                 }
             }
         }
+
         public static UserProfile GetUserProfile(string username)
         {
             using (var conn = DatabaseConnection.GetConnection())
@@ -155,8 +138,9 @@ namespace UMS.Controller
                         {
                             string role = reader["Role"].ToString();
                             int userId = Convert.ToInt32(reader["UserID"]);
+                            string password = reader["Password"].ToString();
 
-                            return GetProfileByRole(userId, role, conn);
+                            return GetProfileByRole(userId, username, password, role, conn);
                         }
                     }
                 }
@@ -164,15 +148,19 @@ namespace UMS.Controller
             return null;
         }
 
-        private static UserProfile GetProfileByRole(int userId, string role, SQLiteConnection conn)
+        private static UserProfile GetProfileByRole(int userId, string username, string password, string role, SQLiteConnection conn)
         {
             string roleTable = null;
+            string loweredRole = role.ToLower();
 
-            if (role.ToLower() == "admin") roleTable = "Admins";
-            else if (role.ToLower() == "student") roleTable = "Students";
-            else if (role.ToLower() == "staff") roleTable = "Staff";
-            else if (role.ToLower() == "lecturer") roleTable = "Lecturers";
-
+            if (loweredRole == "student")
+                roleTable = "Students";
+            else if (loweredRole == "admin")
+                roleTable = "Admins";
+            else if (loweredRole == "staff")
+                roleTable = "Staff";
+            else if (loweredRole == "lecturer")
+                roleTable = "Lecturers";
             if (roleTable == null) return null;
 
             string query = $"SELECT * FROM {roleTable} WHERE UserID = @UserID";
@@ -185,16 +173,23 @@ namespace UMS.Controller
                     {
                         return new UserProfile
                         {
+                            UserID = userId,
                             FullName = reader["FullName"].ToString(),
+                            NIC = Convert.ToInt32(reader["NIC"]),
+                            Phone = Convert.ToInt32(reader["Phone"]),
+                            Email = reader["Email"].ToString(),
+                            Address = reader["Address"].ToString(),
+                            DOB = reader["DOB"].ToString(),
                             Role = role,
+                            Username = username,
+                            Password = password,
                             ProfilePic = reader["ProfilePic"] != DBNull.Value ? (byte[])reader["ProfilePic"] : null
                         };
                     }
                 }
             }
+
             return null;
         }
-
-
     }
 }

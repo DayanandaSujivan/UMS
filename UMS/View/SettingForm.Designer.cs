@@ -130,6 +130,7 @@
             this.updatebtn.TabIndex = 43;
             this.updatebtn.Text = "Update";
             this.updatebtn.UseVisualStyleBackColor = false;
+            this.updatebtn.Click += new System.EventHandler(this.updatebtn_Click);
             // 
             // viewbtn
             // 
@@ -143,6 +144,7 @@
             this.viewbtn.TabIndex = 42;
             this.viewbtn.Text = "View";
             this.viewbtn.UseVisualStyleBackColor = false;
+            this.viewbtn.Click += new System.EventHandler(this.viewbtn_Click);
             // 
             // uploadbtn
             // 
@@ -156,6 +158,7 @@
             this.uploadbtn.TabIndex = 40;
             this.uploadbtn.Text = "Upload";
             this.uploadbtn.UseVisualStyleBackColor = false;
+            this.uploadbtn.Click += new System.EventHandler(this.uploadbtn_Click);
             // 
             // doblbl
             // 
