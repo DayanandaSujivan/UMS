@@ -54,6 +54,7 @@
             this.checkbtn = new System.Windows.Forms.Button();
             this.roletxt = new System.Windows.Forms.TextBox();
             this.profilepicuploadbtn = new System.Windows.Forms.Button();
+            this.loginlbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,7 +74,7 @@
             this.signinbtn.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Bold);
             this.signinbtn.ForeColor = System.Drawing.Color.White;
             this.signinbtn.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.signinbtn.Location = new System.Drawing.Point(591, 669);
+            this.signinbtn.Location = new System.Drawing.Point(598, 621);
             this.signinbtn.Name = "signinbtn";
             this.signinbtn.Size = new System.Drawing.Size(328, 72);
             this.signinbtn.TabIndex = 19;
@@ -121,7 +122,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(317, 232);
+            this.label4.Location = new System.Drawing.Point(314, 221);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(124, 33);
             this.label4.TabIndex = 24;
@@ -129,7 +130,7 @@
             // 
             // fullnametxt
             // 
-            this.fullnametxt.Location = new System.Drawing.Point(612, 241);
+            this.fullnametxt.Location = new System.Drawing.Point(609, 230);
             this.fullnametxt.Name = "fullnametxt";
             this.fullnametxt.Size = new System.Drawing.Size(288, 22);
             this.fullnametxt.TabIndex = 25;
@@ -138,7 +139,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(317, 275);
+            this.label6.Location = new System.Drawing.Point(314, 264);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(178, 33);
             this.label6.TabIndex = 27;
@@ -148,7 +149,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(317, 319);
+            this.label7.Location = new System.Drawing.Point(314, 308);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(174, 33);
             this.label7.TabIndex = 28;
@@ -158,7 +159,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(317, 365);
+            this.label8.Location = new System.Drawing.Point(314, 354);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(178, 33);
             this.label8.TabIndex = 29;
@@ -168,7 +169,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(317, 453);
+            this.label9.Location = new System.Drawing.Point(314, 442);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(86, 33);
             this.label9.TabIndex = 30;
@@ -178,7 +179,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(317, 409);
+            this.label10.Location = new System.Drawing.Point(314, 398);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(151, 33);
             this.label10.TabIndex = 31;
@@ -186,28 +187,28 @@
             // 
             // phonetxt
             // 
-            this.phonetxt.Location = new System.Drawing.Point(612, 284);
+            this.phonetxt.Location = new System.Drawing.Point(609, 273);
             this.phonetxt.Name = "phonetxt";
             this.phonetxt.Size = new System.Drawing.Size(288, 22);
             this.phonetxt.TabIndex = 33;
             // 
             // emailtxt
             // 
-            this.emailtxt.Location = new System.Drawing.Point(612, 328);
+            this.emailtxt.Location = new System.Drawing.Point(609, 317);
             this.emailtxt.Name = "emailtxt";
             this.emailtxt.Size = new System.Drawing.Size(288, 22);
             this.emailtxt.TabIndex = 34;
             // 
             // homeaddresstxt
             // 
-            this.homeaddresstxt.Location = new System.Drawing.Point(612, 374);
+            this.homeaddresstxt.Location = new System.Drawing.Point(609, 363);
             this.homeaddresstxt.Name = "homeaddresstxt";
             this.homeaddresstxt.Size = new System.Drawing.Size(288, 22);
             this.homeaddresstxt.TabIndex = 35;
             // 
             // dobpicker
             // 
-            this.dobpicker.Location = new System.Drawing.Point(612, 419);
+            this.dobpicker.Location = new System.Drawing.Point(609, 408);
             this.dobpicker.Name = "dobpicker";
             this.dobpicker.Size = new System.Drawing.Size(288, 22);
             this.dobpicker.TabIndex = 36;
@@ -216,7 +217,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(317, 504);
+            this.label11.Location = new System.Drawing.Point(314, 493);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(58, 33);
             this.label11.TabIndex = 40;
@@ -226,7 +227,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(317, 546);
+            this.label12.Location = new System.Drawing.Point(314, 535);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(136, 33);
             this.label12.TabIndex = 42;
@@ -236,7 +237,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(317, 595);
+            this.label13.Location = new System.Drawing.Point(314, 584);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(124, 33);
             this.label13.TabIndex = 43;
@@ -244,14 +245,14 @@
             // 
             // usernametxt
             // 
-            this.usernametxt.Location = new System.Drawing.Point(612, 555);
+            this.usernametxt.Location = new System.Drawing.Point(609, 544);
             this.usernametxt.Name = "usernametxt";
             this.usernametxt.Size = new System.Drawing.Size(288, 22);
             this.usernametxt.TabIndex = 44;
             // 
             // passwordtxt
             // 
-            this.passwordtxt.Location = new System.Drawing.Point(612, 595);
+            this.passwordtxt.Location = new System.Drawing.Point(609, 584);
             this.passwordtxt.Name = "passwordtxt";
             this.passwordtxt.PasswordChar = '*';
             this.passwordtxt.Size = new System.Drawing.Size(288, 22);
@@ -259,7 +260,7 @@
             // 
             // nictxt
             // 
-            this.nictxt.Location = new System.Drawing.Point(612, 199);
+            this.nictxt.Location = new System.Drawing.Point(609, 188);
             this.nictxt.Name = "nictxt";
             this.nictxt.Size = new System.Drawing.Size(288, 22);
             this.nictxt.TabIndex = 47;
@@ -268,7 +269,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(317, 188);
+            this.label5.Location = new System.Drawing.Point(314, 177);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(148, 33);
             this.label5.TabIndex = 46;
@@ -278,7 +279,7 @@
             // 
             this.checkbtn.BackColor = System.Drawing.Color.ForestGreen;
             this.checkbtn.ForeColor = System.Drawing.Color.White;
-            this.checkbtn.Location = new System.Drawing.Point(946, 192);
+            this.checkbtn.Location = new System.Drawing.Point(943, 181);
             this.checkbtn.Name = "checkbtn";
             this.checkbtn.Size = new System.Drawing.Size(88, 29);
             this.checkbtn.TabIndex = 48;
@@ -288,14 +289,14 @@
             // 
             // roletxt
             // 
-            this.roletxt.Location = new System.Drawing.Point(612, 513);
+            this.roletxt.Location = new System.Drawing.Point(609, 502);
             this.roletxt.Name = "roletxt";
             this.roletxt.Size = new System.Drawing.Size(288, 22);
             this.roletxt.TabIndex = 49;
             // 
             // profilepicuploadbtn
             // 
-            this.profilepicuploadbtn.Location = new System.Drawing.Point(612, 455);
+            this.profilepicuploadbtn.Location = new System.Drawing.Point(609, 444);
             this.profilepicuploadbtn.Name = "profilepicuploadbtn";
             this.profilepicuploadbtn.Size = new System.Drawing.Size(162, 31);
             this.profilepicuploadbtn.TabIndex = 50;
@@ -303,12 +304,24 @@
             this.profilepicuploadbtn.UseVisualStyleBackColor = true;
             this.profilepicuploadbtn.Click += new System.EventHandler(this.profilepicuploadbtn_Click);
             // 
+            // loginlbl
+            // 
+            this.loginlbl.AutoSize = true;
+            this.loginlbl.Font = new System.Drawing.Font("Arial Narrow", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.loginlbl.Location = new System.Drawing.Point(573, 701);
+            this.loginlbl.Name = "loginlbl";
+            this.loginlbl.Size = new System.Drawing.Size(381, 43);
+            this.loginlbl.TabIndex = 51;
+            this.loginlbl.Text = "Alredy have an account?";
+            this.loginlbl.Click += new System.EventHandler(this.loginlbl_Click);
+            // 
             // Signinform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.ClientSize = new System.Drawing.Size(1482, 753);
+            this.Controls.Add(this.loginlbl);
             this.Controls.Add(this.profilepicuploadbtn);
             this.Controls.Add(this.roletxt);
             this.Controls.Add(this.checkbtn);
@@ -372,5 +385,6 @@
         private System.Windows.Forms.Button checkbtn;
         private System.Windows.Forms.TextBox roletxt;
         private System.Windows.Forms.Button profilepicuploadbtn;
+        private System.Windows.Forms.Label loginlbl;
     }
 }

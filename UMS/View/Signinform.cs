@@ -87,6 +87,11 @@ namespace UMS
                 MessageBox.Show("Registration failed.");
             }
         }
-    
+
+        private void loginlbl_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new Loginform().ShowDialog();
+        }
     }
 }

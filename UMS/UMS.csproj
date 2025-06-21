@@ -64,6 +64,12 @@
     <Compile Include="View\MainDashboardForm.Designer.cs">
       <DependentUpon>MainDashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\SettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\SettingForm.Designer.cs">
+      <DependentUpon>SettingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\Signinform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </Compile>
     <EmbeddedResource Include="View\MainDashboardForm.resx">
       <DependentUpon>MainDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\SettingForm.resx">
+      <DependentUpon>SettingForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\Signinform.resx">
       <DependentUpon>Signinform.cs</DependentUpon>

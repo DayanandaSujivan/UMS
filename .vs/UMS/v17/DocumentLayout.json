@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\",
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\Project\\UMS\\ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\Project\\UMS\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\Project\\UMS\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\Project\\UMS\\ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,12 +49,54 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SettingForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SettingForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\SettingForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SettingForm.cs [Design]",
+              "RelativeToolTip": "UMS\\View\\SettingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T07:21:57.434Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Signinform.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\Signinform.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs",
+              "RelativeToolTip": "UMS\\View\\Signinform.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T07:16:09.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Loginform.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\Loginform.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs",
+              "RelativeToolTip": "UMS\\View\\Loginform.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvyAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T07:06:30.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\MainDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs",
               "RelativeDocumentMoniker": "UMS\\View\\MainDashboardForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\MainDashboardForm.cs [Design]",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs [Design]",
               "RelativeToolTip": "UMS\\View\\MainDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T18:01:21.87Z",
@@ -52,22 +106,22 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainDashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\MainDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs",
               "RelativeDocumentMoniker": "UMS\\View\\MainDashboardForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\MainDashboardForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs",
               "RelativeToolTip": "UMS\\View\\MainDashboardForm.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAIAywEYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAiwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T18:20:52.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Loginform.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\Loginform.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs",
               "RelativeDocumentMoniker": "UMS\\View\\Loginform.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\Loginform.cs [Design]",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs [Design]",
               "RelativeToolTip": "UMS\\View\\Loginform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T17:36:31.81Z",
@@ -75,11 +129,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Signinform.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\Signinform.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs",
               "RelativeDocumentMoniker": "UMS\\View\\Signinform.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Project\\UMS\\UMS\\View\\Signinform.cs [Design]",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs [Design]",
               "RelativeToolTip": "UMS\\View\\Signinform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T17:36:17.023Z",

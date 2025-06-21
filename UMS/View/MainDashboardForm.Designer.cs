@@ -32,6 +32,7 @@
             this.profilepiclable = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.mainpanel = new System.Windows.Forms.Panel();
             this.logoutbtn = new System.Windows.Forms.Button();
             this.settingbtn = new System.Windows.Forms.Button();
             this.roombtn = new System.Windows.Forms.Button();
@@ -98,6 +99,15 @@
             this.panel2.Size = new System.Drawing.Size(286, 860);
             this.panel2.TabIndex = 1;
             // 
+            // mainpanel
+            // 
+            this.mainpanel.BackColor = System.Drawing.Color.White;
+            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainpanel.Location = new System.Drawing.Point(286, 193);
+            this.mainpanel.Name = "mainpanel";
+            this.mainpanel.Size = new System.Drawing.Size(1496, 860);
+            this.mainpanel.TabIndex = 2;
+            // 
             // logoutbtn
             // 
             this.logoutbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -126,6 +136,7 @@
             this.settingbtn.TabIndex = 2;
             this.settingbtn.Text = "Setting";
             this.settingbtn.UseVisualStyleBackColor = false;
+            this.settingbtn.Click += new System.EventHandler(this.settingbtn_Click);
             // 
             // roombtn
             // 
@@ -221,6 +232,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1782, 1053);
+            this.Controls.Add(this.mainpanel);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "MainDashboardForm";
@@ -250,5 +262,6 @@
         private System.Windows.Forms.Button studentbtn;
         private System.Windows.Forms.Button coursebtn;
         private System.Windows.Forms.Button userbtn;
+        private System.Windows.Forms.Panel mainpanel;
     }
 }

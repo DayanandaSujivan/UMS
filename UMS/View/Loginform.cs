@@ -26,22 +26,43 @@ namespace UMS
         }
         private void loginbtn_Click(object sender, EventArgs e)
         {
-            string username = usernametxt.Text;
+            string username = usernametxt.Text.Trim();
             string password = passwordtxt.Text;
 
-            if (LoginController.ValidateLogin(username, password, out string role))
+            try
             {
-                var profile = LoginController.GetUserProfile(username);
-                if (profile != null)
+                // 1. Validate if fields are empty
+                if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
                 {
-                    this.Hide();
-                    MainDashboardForm dashboard = new MainDashboardForm(profile); // ✅ pass profile
-                    dashboard.Show();
+                    MessageBox.Show("Please enter both username and password.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+
+                // 2. Attempt to validate login
+                if (LoginController.ValidateLogin(username, password, out string role))
+                {
+                    var profile = LoginController.GetUserProfile(username);
+                    if (profile != null)
+                    {
+                        this.Hide();
+                        MainDashboardForm dashboard = new MainDashboardForm(profile);
+                        dashboard.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Unable to load profile data. Please try again later.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Unable to load profile data.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    // 3. Invalid username or password
+                    MessageBox.Show("Incorrect username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+            }
+            catch (Exception ex)
+            {
+                // 4. Unexpected errors
+                MessageBox.Show("An error occurred during login:\n" + ex.Message, "Unexpected Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }

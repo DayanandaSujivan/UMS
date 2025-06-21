@@ -90,6 +90,30 @@ namespace UMS.View
                 this.Close();
             }
         }
+        public void LoadForm(object formObj)
+        {
+            if (mainpanel.Controls.Count > 0)
+                mainpanel.Controls.RemoveAt(0);
+
+            Form form = formObj as Form;
+            if (form != null)
+            {
+                form.TopLevel = false;
+                form.Dock = DockStyle.Fill;
+                mainpanel.Controls.Add(form);
+                mainpanel.Tag = form;
+                form.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid form object", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void settingbtn_Click(object sender, EventArgs e)
+        {
+            LoadForm(new SettingForm());
+        }
     }
 
 }
