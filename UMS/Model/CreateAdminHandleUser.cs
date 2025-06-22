@@ -8,7 +8,7 @@ namespace UMS.Model
 {
     internal class CreateAdminHandleUser
     {
-        public int NIC { get; set; }
+        public string NIC { get; set; }
         public string FullName { get; set; }
         public int Phone { get; set; }
         public string Email { get; set; }

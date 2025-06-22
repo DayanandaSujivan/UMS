@@ -33,27 +33,27 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.nictxt = new System.Windows.Forms.TextBox();
+            this.fullnametxt = new System.Windows.Forms.TextBox();
+            this.phonetxt = new System.Windows.Forms.TextBox();
+            this.addbtn = new System.Windows.Forms.Button();
+            this.updatebtn = new System.Windows.Forms.Button();
+            this.deletebtn = new System.Windows.Forms.Button();
+            this.viewbtn = new System.Windows.Forms.Button();
+            this.clearbtn = new System.Windows.Forms.Button();
+            this.dgv = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.emailtxt = new System.Windows.Forms.TextBox();
+            this.addresstxt = new System.Windows.Forms.TextBox();
+            this.dobtxt = new System.Windows.Forms.TextBox();
             this.adminradiobtn = new System.Windows.Forms.RadioButton();
             this.studentradiobtn = new System.Windows.Forms.RadioButton();
             this.staffradiobtn = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -98,7 +98,6 @@
             this.label3.Size = new System.Drawing.Size(68, 16);
             this.label3.TabIndex = 3;
             this.label3.Text = "Full Name";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -110,105 +109,110 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "Role";
             // 
-            // textBox1
+            // nictxt
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Location = new System.Drawing.Point(303, 106);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(313, 22);
-            this.textBox1.TabIndex = 5;
+            this.nictxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.nictxt.Location = new System.Drawing.Point(303, 106);
+            this.nictxt.Name = "nictxt";
+            this.nictxt.Size = new System.Drawing.Size(313, 22);
+            this.nictxt.TabIndex = 5;
             // 
-            // textBox2
+            // fullnametxt
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Location = new System.Drawing.Point(303, 133);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(313, 22);
-            this.textBox2.TabIndex = 6;
+            this.fullnametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.fullnametxt.Location = new System.Drawing.Point(303, 133);
+            this.fullnametxt.Name = "fullnametxt";
+            this.fullnametxt.Size = new System.Drawing.Size(313, 22);
+            this.fullnametxt.TabIndex = 6;
             // 
-            // textBox3
+            // phonetxt
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.Location = new System.Drawing.Point(303, 162);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(313, 22);
-            this.textBox3.TabIndex = 7;
+            this.phonetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.phonetxt.Location = new System.Drawing.Point(303, 162);
+            this.phonetxt.Name = "phonetxt";
+            this.phonetxt.Size = new System.Drawing.Size(313, 22);
+            this.phonetxt.TabIndex = 7;
             // 
-            // button1
+            // addbtn
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
-            this.button1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(101, 361);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 40);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "ADD";
-            this.button1.UseVisualStyleBackColor = false;
+            this.addbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.addbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
+            this.addbtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addbtn.ForeColor = System.Drawing.Color.White;
+            this.addbtn.Location = new System.Drawing.Point(101, 361);
+            this.addbtn.Name = "addbtn";
+            this.addbtn.Size = new System.Drawing.Size(105, 40);
+            this.addbtn.TabIndex = 8;
+            this.addbtn.Text = "ADD";
+            this.addbtn.UseVisualStyleBackColor = false;
+            this.addbtn.Click += new System.EventHandler(this.addbtn_Click);
             // 
-            // button2
+            // updatebtn
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
-            this.button2.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(226, 361);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 40);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "UPDATE";
-            this.button2.UseVisualStyleBackColor = false;
+            this.updatebtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.updatebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
+            this.updatebtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.updatebtn.ForeColor = System.Drawing.Color.White;
+            this.updatebtn.Location = new System.Drawing.Point(226, 361);
+            this.updatebtn.Name = "updatebtn";
+            this.updatebtn.Size = new System.Drawing.Size(105, 40);
+            this.updatebtn.TabIndex = 9;
+            this.updatebtn.Text = "UPDATE";
+            this.updatebtn.UseVisualStyleBackColor = false;
+            this.updatebtn.Click += new System.EventHandler(this.updatebtn_Click);
             // 
-            // button3
+            // deletebtn
             // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
-            this.button3.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(351, 361);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 40);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "DELETE";
-            this.button3.UseVisualStyleBackColor = false;
+            this.deletebtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.deletebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
+            this.deletebtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deletebtn.ForeColor = System.Drawing.Color.White;
+            this.deletebtn.Location = new System.Drawing.Point(351, 361);
+            this.deletebtn.Name = "deletebtn";
+            this.deletebtn.Size = new System.Drawing.Size(105, 40);
+            this.deletebtn.TabIndex = 10;
+            this.deletebtn.Text = "DELETE";
+            this.deletebtn.UseVisualStyleBackColor = false;
+            this.deletebtn.Click += new System.EventHandler(this.deletebtn_Click);
             // 
-            // button4
+            // viewbtn
             // 
-            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
-            this.button4.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(480, 361);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(105, 40);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "VIEW";
-            this.button4.UseVisualStyleBackColor = false;
+            this.viewbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.viewbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
+            this.viewbtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.viewbtn.ForeColor = System.Drawing.Color.White;
+            this.viewbtn.Location = new System.Drawing.Point(480, 361);
+            this.viewbtn.Name = "viewbtn";
+            this.viewbtn.Size = new System.Drawing.Size(105, 40);
+            this.viewbtn.TabIndex = 11;
+            this.viewbtn.Text = "VIEW";
+            this.viewbtn.UseVisualStyleBackColor = false;
+            this.viewbtn.Click += new System.EventHandler(this.viewbtn_Click);
             // 
-            // button5
+            // clearbtn
             // 
-            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
-            this.button5.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(603, 361);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(105, 40);
-            this.button5.TabIndex = 12;
-            this.button5.Text = "CLEAR";
-            this.button5.UseVisualStyleBackColor = false;
+            this.clearbtn.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.clearbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
+            this.clearbtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearbtn.ForeColor = System.Drawing.Color.White;
+            this.clearbtn.Location = new System.Drawing.Point(603, 361);
+            this.clearbtn.Name = "clearbtn";
+            this.clearbtn.Size = new System.Drawing.Size(105, 40);
+            this.clearbtn.TabIndex = 12;
+            this.clearbtn.Text = "CLEAR";
+            this.clearbtn.UseVisualStyleBackColor = false;
+            this.clearbtn.Click += new System.EventHandler(this.clearbtn_Click);
             // 
-            // dataGridView1
+            // dgv
             // 
-            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(130, 422);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(555, 207);
-            this.dataGridView1.TabIndex = 13;
+            this.dgv.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv.Location = new System.Drawing.Point(130, 422);
+            this.dgv.Name = "dgv";
+            this.dgv.RowHeadersWidth = 51;
+            this.dgv.RowTemplate.Height = 24;
+            this.dgv.Size = new System.Drawing.Size(555, 207);
+            this.dgv.TabIndex = 13;
             // 
             // label5
             // 
@@ -250,29 +254,29 @@
             this.label8.TabIndex = 17;
             this.label8.Text = "DOB";
             // 
-            // textBox4
+            // emailtxt
             // 
-            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox4.Location = new System.Drawing.Point(303, 192);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(313, 22);
-            this.textBox4.TabIndex = 19;
+            this.emailtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.emailtxt.Location = new System.Drawing.Point(303, 192);
+            this.emailtxt.Name = "emailtxt";
+            this.emailtxt.Size = new System.Drawing.Size(313, 22);
+            this.emailtxt.TabIndex = 19;
             // 
-            // textBox5
+            // addresstxt
             // 
-            this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox5.Location = new System.Drawing.Point(303, 219);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(313, 22);
-            this.textBox5.TabIndex = 20;
+            this.addresstxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.addresstxt.Location = new System.Drawing.Point(303, 219);
+            this.addresstxt.Name = "addresstxt";
+            this.addresstxt.Size = new System.Drawing.Size(313, 22);
+            this.addresstxt.TabIndex = 20;
             // 
-            // textBox6
+            // dobtxt
             // 
-            this.textBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox6.Location = new System.Drawing.Point(303, 250);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(313, 22);
-            this.textBox6.TabIndex = 21;
+            this.dobtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dobtxt.Location = new System.Drawing.Point(303, 250);
+            this.dobtxt.Name = "dobtxt";
+            this.dobtxt.Size = new System.Drawing.Size(313, 22);
+            this.dobtxt.TabIndex = 21;
             // 
             // adminradiobtn
             // 
@@ -319,22 +323,22 @@
             this.Controls.Add(this.staffradiobtn);
             this.Controls.Add(this.studentradiobtn);
             this.Controls.Add(this.adminradiobtn);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.dobtxt);
+            this.Controls.Add(this.addresstxt);
+            this.Controls.Add(this.emailtxt);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dgv);
+            this.Controls.Add(this.clearbtn);
+            this.Controls.Add(this.viewbtn);
+            this.Controls.Add(this.deletebtn);
+            this.Controls.Add(this.updatebtn);
+            this.Controls.Add(this.addbtn);
+            this.Controls.Add(this.phonetxt);
+            this.Controls.Add(this.fullnametxt);
+            this.Controls.Add(this.nictxt);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -345,7 +349,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserForm";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -358,22 +362,22 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox nictxt;
+        private System.Windows.Forms.TextBox fullnametxt;
+        private System.Windows.Forms.TextBox phonetxt;
+        private System.Windows.Forms.Button addbtn;
+        private System.Windows.Forms.Button updatebtn;
+        private System.Windows.Forms.Button deletebtn;
+        private System.Windows.Forms.Button viewbtn;
+        private System.Windows.Forms.Button clearbtn;
+        private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox emailtxt;
+        private System.Windows.Forms.TextBox addresstxt;
+        private System.Windows.Forms.TextBox dobtxt;
         private System.Windows.Forms.RadioButton adminradiobtn;
         private System.Windows.Forms.RadioButton studentradiobtn;
         private System.Windows.Forms.RadioButton staffradiobtn;

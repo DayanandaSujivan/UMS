@@ -18,7 +18,9 @@ namespace UMS
 
         private void checkbtn_Click(object sender, EventArgs e)
         {
-            if (int.TryParse(nictxt.Text, out int nic))
+            string nic = nictxt.Text.Trim();
+
+            if (!string.IsNullOrEmpty(nic))
             {
                 var adminData = LoginController.GetAdminApprovalByNIC(nic);
                 if (adminData != null)
@@ -38,7 +40,7 @@ namespace UMS
             }
             else
             {
-                MessageBox.Show("Invalid NIC format.");
+                MessageBox.Show("Please enter a valid NIC.");
             }
         }
 
@@ -67,12 +69,14 @@ namespace UMS
                 return;
             }
 
-            var adminData = LoginController.GetAdminApprovalByNIC(int.Parse(nictxt.Text));
+            var adminData = LoginController.GetAdminApprovalByNIC(nictxt.Text.Trim());
+
             if (adminData == null)
             {
                 MessageBox.Show("NIC not approved.");
                 return;
             }
+
 
             bool registered = LoginController.RegisterUser(adminData, usernametxt.Text, passwordtxt.Text, profilePicBytes);
             if (registered)

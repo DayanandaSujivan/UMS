@@ -8,7 +8,7 @@ namespace UMS.Model
 {
     public class AdminHandle
     {
-        public int NIC { get; set; }
+        public string NIC { get; set; }
         public string FullName { get; set; }
         public int phone { get; set; }
         public string Email { get; set; }

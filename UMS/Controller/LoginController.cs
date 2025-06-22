@@ -7,7 +7,7 @@ namespace UMS.Controller
 {
     public static class LoginController
     {
-        public static AdminHandle GetAdminApprovalByNIC(int nic)
+        public static AdminHandle GetAdminApprovalByNIC(string nic)
         {
             using (var conn = DatabaseConnection.GetConnection())
             {
@@ -21,7 +21,7 @@ namespace UMS.Controller
                         {
                             return new AdminHandle
                             {
-                                NIC = Convert.ToInt32(reader["NIC"]),
+                                NIC = reader["NIC"].ToString(),
                                 FullName = reader["FullName"].ToString(),
                                 phone = Convert.ToInt32(reader["Phone"]),
                                 Email = reader["Email"].ToString(),
@@ -175,7 +175,7 @@ namespace UMS.Controller
                         {
                             UserID = userId,
                             FullName = reader["FullName"].ToString(),
-                            NIC = Convert.ToInt32(reader["NIC"]),
+                            NIC = reader["NIC"].ToString(),
                             Phone = Convert.ToInt32(reader["Phone"]),
                             Email = reader["Email"].ToString(),
                             Address = reader["Address"].ToString(),

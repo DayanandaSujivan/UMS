@@ -11,7 +11,7 @@ namespace UMS.Data
             {
                 string preRegisterTable = @"
                     CREATE TABLE IF NOT EXISTS pre_register (
-                        NIC INTEGER NOT NULL PRIMARY KEY,
+                        NIC TEXT NOT NULL PRIMARY KEY,
                         FullName TEXT NOT NULL,
                         Phone INTEGER NOT NULL,
                         Email TEXT NOT NULL,
@@ -33,7 +33,7 @@ namespace UMS.Data
                     CREATE TABLE IF NOT EXISTS Students (
                         Id INTEGER PRIMARY KEY AUTOINCREMENT,
                         UserID INTEGER NOT NULL,
-                        NIC INTEGER NOT NULL,
+                        NIC TEXT NOT NULL,
                         FullName TEXT NOT NULL,
                         Phone INTEGER NOT NULL,
                         Email TEXT NOT NULL,
@@ -49,7 +49,7 @@ namespace UMS.Data
                     CREATE TABLE IF NOT EXISTS Lecturers (
                         Id INTEGER PRIMARY KEY AUTOINCREMENT,
                         UserID INTEGER NOT NULL,
-                        NIC INTEGER NOT NULL,
+                        NIC TEXT NOT NULL,
                         FullName TEXT NOT NULL,
                         Phone INTEGER NOT NULL,
                         Email TEXT NOT NULL,
@@ -63,7 +63,7 @@ namespace UMS.Data
                     CREATE TABLE IF NOT EXISTS Admins (
                         Id INTEGER PRIMARY KEY AUTOINCREMENT,
                         UserID INTEGER NOT NULL,
-                        NIC INTEGER NOT NULL,
+                        NIC TEXT NOT NULL,
                         FullName TEXT NOT NULL,
                         Phone INTEGER NOT NULL,
                         Email TEXT NOT NULL,
@@ -77,7 +77,7 @@ namespace UMS.Data
                     CREATE TABLE IF NOT EXISTS Staff (
                         Id INTEGER PRIMARY KEY AUTOINCREMENT,
                         UserID INTEGER NOT NULL,
-                        NIC INTEGER NOT NULL,
+                        NIC TEXT NOT NULL,
                         FullName TEXT NOT NULL,
                         Phone INTEGER NOT NULL,
                         Email TEXT NOT NULL,
