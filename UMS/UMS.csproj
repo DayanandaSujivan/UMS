@@ -51,11 +51,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CreateAdminHandleUserController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\UserProfileController.cs" />
     <Compile Include="Data\DatabaseConnection.cs" />
     <Compile Include="Data\DatabaseInitializer.cs" />
     <Compile Include="Model\AdminHandle.cs" />
+    <Compile Include="Model\CreateAdminHandleUser.cs" />
     <Compile Include="Model\Lecturer.cs" />
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\UserProfile.cs" />
