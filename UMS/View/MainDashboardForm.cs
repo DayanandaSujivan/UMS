@@ -115,6 +115,11 @@ namespace UMS.View
         {
             LoadForm(new SettingForm(_user));
         }
+
+        private void userbtn_Click(object sender, EventArgs e)
+        {
+            LoadForm(new UserForm());
+        }
     }
 
 }

@@ -46,3 +46,5 @@ C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.csproj.CoreCompileInputs
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.csproj.Up2Date
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.exe
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.pdb
+C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.exe.config
+C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.UserForm.resources
