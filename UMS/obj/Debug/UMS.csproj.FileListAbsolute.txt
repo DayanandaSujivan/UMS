@@ -52,3 +52,12 @@ C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.CourseForm.resource
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.SubjectForm.resources
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.exe.config
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.StudentEnrollmentForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.CourseDashboardForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.CourseForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.SettingForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.StudentEnrollmentForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.SubjectForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.UserForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.ExamDashboardForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.ExamForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.MarksForm.resources

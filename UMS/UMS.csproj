@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Controller\CourseController.cs" />
     <Compile Include="Controller\CreateAdminHandleUserController.cs" />
+    <Compile Include="Controller\ExamController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\StudentEnrollmentController.cs" />
     <Compile Include="Controller\SubjectController.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Model\AdminHandle.cs" />
     <Compile Include="Model\Course.cs" />
     <Compile Include="Model\CreateAdminHandleUser.cs" />
+    <Compile Include="Model\Exam.cs" />
     <Compile Include="Model\Lecturer.cs" />
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\StudentEnrollment.cs" />
@@ -79,11 +81,29 @@
     <Compile Include="View\CourseForm.Designer.cs">
       <DependentUpon>CourseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\ExamDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ExamDashboardForm.Designer.cs">
+      <DependentUpon>ExamDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ExamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ExamForm.Designer.cs">
+      <DependentUpon>ExamForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\MainDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="View\MainDashboardForm.Designer.cs">
       <DependentUpon>MainDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MarksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MarksForm.Designer.cs">
+      <DependentUpon>MarksForm.cs</DependentUpon>
     </Compile>
     <Compile Include="View\SettingForm.cs">
       <SubType>Form</SubType>
@@ -129,6 +149,12 @@
     <EmbeddedResource Include="View\CourseForm.resx">
       <DependentUpon>CourseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\ExamDashboardForm.resx">
+      <DependentUpon>ExamDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ExamForm.resx">
+      <DependentUpon>ExamForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Loginform.resx">
       <DependentUpon>Loginform.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +170,9 @@
     </Compile>
     <EmbeddedResource Include="View\MainDashboardForm.resx">
       <DependentUpon>MainDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MarksForm.resx">
+      <DependentUpon>MarksForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\SettingForm.resx">
       <DependentUpon>SettingForm.cs</DependentUpon>
@@ -206,6 +235,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Enrollment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\marks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exam1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />

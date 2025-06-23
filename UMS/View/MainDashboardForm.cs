@@ -132,6 +132,11 @@ namespace UMS.View
         {
             LoadForm(new StudentEnrollmentForm());
         }
+
+        private void exambtn_Click(object sender, EventArgs e)
+        {
+            LoadForm(new ExamDashboardForm(this,_user));
+        }
     }
 
 }

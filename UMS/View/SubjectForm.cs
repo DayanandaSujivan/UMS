@@ -24,7 +24,7 @@ namespace UMS.View
 
             LoadCoursesToComboBox();
             LoadSubjects();
-            dgv.CellContentClick += dgv_CellContentClick;
+            dgv.CellClick += dgv_CellClick;
 
             ApplyRoleRestrictions();
         }
@@ -152,16 +152,14 @@ namespace UMS.View
             ClearForm();
         }
 
-        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void dgv_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
                 var row = dgv.Rows[e.RowIndex];
                 selectedSubjectId = Convert.ToInt32(row.Cells["SubjectID"].Value);
                 subjecttxt.Text = row.Cells["SubjectName"].Value.ToString();
-
-                string selectedCourseName = row.Cells["CourseName"].Value.ToString();
-                coursecombobox.SelectedItem = selectedCourseName;
+                coursecombobox.SelectedItem = row.Cells["CourseName"].Value.ToString();
             }
         }
 
