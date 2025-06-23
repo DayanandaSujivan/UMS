@@ -55,6 +55,7 @@
     <Compile Include="Controller\CreateAdminHandleUserController.cs" />
     <Compile Include="Controller\ExamController.cs" />
     <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="Controller\MarkController.cs" />
     <Compile Include="Controller\StudentEnrollmentController.cs" />
     <Compile Include="Controller\SubjectController.cs" />
     <Compile Include="Controller\UserProfileController.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Model\CreateAdminHandleUser.cs" />
     <Compile Include="Model\Exam.cs" />
     <Compile Include="Model\Lecturer.cs" />
+    <Compile Include="Model\Mark.cs" />
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\StudentEnrollment.cs" />
     <Compile Include="Model\Subject.cs" />

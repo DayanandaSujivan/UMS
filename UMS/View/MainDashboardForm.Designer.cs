@@ -30,22 +30,22 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.profilepiclable = new System.Windows.Forms.Label();
+            this.profilepictureBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.mainpanel = new System.Windows.Forms.Panel();
             this.logoutbtn = new System.Windows.Forms.Button();
             this.settingbtn = new System.Windows.Forms.Button();
-            this.roombtn = new System.Windows.Forms.Button();
+            this.timetablebtn = new System.Windows.Forms.Button();
             this.exambtn = new System.Windows.Forms.Button();
             this.studentbtn = new System.Windows.Forms.Button();
             this.coursebtn = new System.Windows.Forms.Button();
             this.userbtn = new System.Windows.Forms.Button();
-            this.profilepictureBox = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.mainpanel = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.profilepictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -71,6 +71,15 @@
             this.profilepiclable.Text = "label2";
             this.profilepiclable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // profilepictureBox
+            // 
+            this.profilepictureBox.Location = new System.Drawing.Point(1333, 3);
+            this.profilepictureBox.Name = "profilepictureBox";
+            this.profilepictureBox.Size = new System.Drawing.Size(166, 155);
+            this.profilepictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.profilepictureBox.TabIndex = 22;
+            this.profilepictureBox.TabStop = false;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -83,12 +92,22 @@
             this.label1.TabIndex = 21;
             this.label1.Text = "Unicom TIC Management System";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::UMS.Properties.Resources.unicom_logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(286, 193);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.panel2.Controls.Add(this.logoutbtn);
             this.panel2.Controls.Add(this.settingbtn);
-            this.panel2.Controls.Add(this.roombtn);
+            this.panel2.Controls.Add(this.timetablebtn);
             this.panel2.Controls.Add(this.exambtn);
             this.panel2.Controls.Add(this.studentbtn);
             this.panel2.Controls.Add(this.coursebtn);
@@ -98,15 +117,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(286, 860);
             this.panel2.TabIndex = 1;
-            // 
-            // mainpanel
-            // 
-            this.mainpanel.BackColor = System.Drawing.Color.White;
-            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainpanel.Location = new System.Drawing.Point(286, 193);
-            this.mainpanel.Name = "mainpanel";
-            this.mainpanel.Size = new System.Drawing.Size(1496, 860);
-            this.mainpanel.TabIndex = 2;
             // 
             // logoutbtn
             // 
@@ -138,19 +148,19 @@
             this.settingbtn.UseVisualStyleBackColor = false;
             this.settingbtn.Click += new System.EventHandler(this.settingbtn_Click);
             // 
-            // roombtn
+            // timetablebtn
             // 
-            this.roombtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.roombtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roombtn.ForeColor = System.Drawing.Color.Maroon;
-            this.roombtn.Image = global::UMS.Properties.Resources.room;
-            this.roombtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.roombtn.Location = new System.Drawing.Point(12, 339);
-            this.roombtn.Name = "roombtn";
-            this.roombtn.Size = new System.Drawing.Size(268, 64);
-            this.roombtn.TabIndex = 4;
-            this.roombtn.Text = "Rooms";
-            this.roombtn.UseVisualStyleBackColor = false;
+            this.timetablebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.timetablebtn.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timetablebtn.ForeColor = System.Drawing.Color.Maroon;
+            this.timetablebtn.Image = global::UMS.Properties.Resources.room;
+            this.timetablebtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.timetablebtn.Location = new System.Drawing.Point(12, 339);
+            this.timetablebtn.Name = "timetablebtn";
+            this.timetablebtn.Size = new System.Drawing.Size(268, 64);
+            this.timetablebtn.TabIndex = 4;
+            this.timetablebtn.Text = "Time Table";
+            this.timetablebtn.UseVisualStyleBackColor = false;
             // 
             // exambtn
             // 
@@ -212,24 +222,14 @@
             this.userbtn.UseVisualStyleBackColor = false;
             this.userbtn.Click += new System.EventHandler(this.userbtn_Click);
             // 
-            // profilepictureBox
+            // mainpanel
             // 
-            this.profilepictureBox.Location = new System.Drawing.Point(1333, 3);
-            this.profilepictureBox.Name = "profilepictureBox";
-            this.profilepictureBox.Size = new System.Drawing.Size(166, 155);
-            this.profilepictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.profilepictureBox.TabIndex = 22;
-            this.profilepictureBox.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::UMS.Properties.Resources.unicom_logo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(286, 193);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.mainpanel.BackColor = System.Drawing.Color.White;
+            this.mainpanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainpanel.Location = new System.Drawing.Point(286, 193);
+            this.mainpanel.Name = "mainpanel";
+            this.mainpanel.Size = new System.Drawing.Size(1496, 860);
+            this.mainpanel.TabIndex = 2;
             // 
             // MainDashboardForm
             // 
@@ -244,9 +244,9 @@
             this.Text = "MainDashboardForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.profilepictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -261,7 +261,7 @@
         private System.Windows.Forms.Label profilepiclable;
         private System.Windows.Forms.Button logoutbtn;
         private System.Windows.Forms.Button settingbtn;
-        private System.Windows.Forms.Button roombtn;
+        private System.Windows.Forms.Button timetablebtn;
         private System.Windows.Forms.Button exambtn;
         private System.Windows.Forms.Button studentbtn;
         private System.Windows.Forms.Button coursebtn;

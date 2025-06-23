@@ -20,6 +20,11 @@ namespace UMS.View
             InitializeComponent();
             _mainDashboard = mainDashboard;
             _user = user;
+
+            if (_user.Role?.ToLower() == "student")
+            {
+                exambtn.Visible = false;
+            }
         }
 
         private void exambtn_Click(object sender, EventArgs e)

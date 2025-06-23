@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\project\\UMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\project\\UMS\\ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\marksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\marksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\controller\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\markcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\examdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\examdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\examdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\examdashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\marksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\marksform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\examform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\project\\ums\\ums\\controller\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,77 +62,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SubjectForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\SubjectForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\SubjectForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\SubjectForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\SubjectForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "MarksForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MarksForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\MarksForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MarksForm.cs",
+              "RelativeToolTip": "UMS\\View\\MarksForm.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAN4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T18:00:54.744Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\CourseForm.cs",
-              "RelativeToolTip": "UMS\\View\\CourseForm.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T18:00:32.891Z",
+              "WhenOpened": "2025-06-23T20:24:14.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CourseForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\CourseForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\CourseForm.cs [Design]",
+              "Title": "ExamDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\ExamDashboardForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamDashboardForm.cs",
+              "RelativeToolTip": "UMS\\View\\ExamDashboardForm.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvxkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T18:00:31.298Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExamForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\ExamForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamForm.cs",
-              "RelativeToolTip": "UMS\\View\\ExamForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:43:06.257Z",
+              "WhenOpened": "2025-06-23T20:23:41.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "MainDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MainDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\MainDashboardForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MainDashboardForm.cs",
+              "RelativeToolTip": "UMS\\View\\MainDashboardForm.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwI4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:23:11.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MarksForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MarksForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\MarksForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MarksForm.cs [Design]",
+              "RelativeToolTip": "UMS\\View\\MarksForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:19:37.387Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ExamForm.cs [Design]",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamForm.cs",
               "RelativeDocumentMoniker": "UMS\\View\\ExamForm.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamForm.cs [Design]",
               "RelativeToolTip": "UMS\\View\\ExamForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:13:21.563Z",
+              "WhenOpened": "2025-06-23T20:19:34.964Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubjectForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\SubjectForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\SubjectForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\SubjectForm.cs",
-              "RelativeToolTip": "UMS\\View\\SubjectForm.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAYwKMAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "ExamDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\ExamDashboardForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\ExamDashboardForm.cs [Design]",
+              "RelativeToolTip": "UMS\\View\\ExamDashboardForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:51:49.066Z",
+              "WhenOpened": "2025-06-23T20:19:28.569Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MainDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\MainDashboardForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\View\\MainDashboardForm.cs [Design]",
+              "RelativeToolTip": "UMS\\View\\MainDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:19:23.451Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MarkController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\Controller\\MarkController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controller\\MarkController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\Controller\\MarkController.cs",
+              "RelativeToolTip": "UMS\\Controller\\MarkController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:18:57.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\Controller\\ExamController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controller\\ExamController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\project\\UMS\\UMS\\Controller\\ExamController.cs",
+              "RelativeToolTip": "UMS\\Controller\\ExamController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:18:55.202Z",
               "EditorCaption": ""
             }
           ]
