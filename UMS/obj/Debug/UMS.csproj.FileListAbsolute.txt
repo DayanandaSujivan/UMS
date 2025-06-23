@@ -47,7 +47,8 @@ C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.csproj.Up2Date
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.exe
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.pdb
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.UserForm.resources
-C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.exe.config
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.CourseDashboardForm.resources
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.CourseForm.resources
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.SubjectForm.resources
+C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.exe.config
+C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.StudentEnrollmentForm.resources

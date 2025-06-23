@@ -71,7 +71,6 @@ namespace UMS.View
         private void EnableAdminFeatures() { /* Enable all buttons */ }
         private void EnableStudentFeatures() { 
             userbtn.Enabled = false;
-            coursebtn.Enabled = false;
             studentbtn.Enabled = false; 
         
         }
@@ -126,7 +125,12 @@ namespace UMS.View
 
         private void coursebtn_Click(object sender, EventArgs e)
         {
-            LoadForm(new CourseDashboardForm(this));
+            LoadForm(new CourseDashboardForm(this,_user));
+        }
+
+        private void studentbtn_Click(object sender, EventArgs e)
+        {
+            LoadForm(new StudentEnrollmentForm());
         }
     }
 

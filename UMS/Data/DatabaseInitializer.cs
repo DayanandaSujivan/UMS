@@ -144,14 +144,24 @@ namespace UMS.Data
                         FOREIGN KEY(SubjectID) REFERENCES Subjects(SubjectID),
                         FOREIGN KEY(RoomID) REFERENCES Rooms(RoomID)
                     );";
+                string studentEnrollmentTable = @"
+                    CREATE TABLE IF NOT EXISTS Student_Enrollment (
+                        EnrollmentID INTEGER PRIMARY KEY AUTOINCREMENT,
+                        StudentID INTEGER NOT NULL,
+                        CourseID INTEGER NOT NULL,
+                        EnrollmentDate TEXT,
+                        FOREIGN KEY(StudentID) REFERENCES Students(Id),
+                        FOREIGN KEY(CourseID) REFERENCES Courses(CourseID)
+                    );";
 
-                // Execute all table creation commands
+                
                 string[] tableQueries = {
                     usersTable, studentsTable, lecturersTable,
                     adminsTable, staffTable, coursesTable,
                     subjectsTable, lecturerSubjectsTable, examsTable,
                     marksTable, roomsTable, timetablesTable,
-                    preRegisterTable // <-- New addition
+                    studentEnrollmentTable, 
+                    preRegisterTable
                 };
 
                 foreach (string query in tableQueries)

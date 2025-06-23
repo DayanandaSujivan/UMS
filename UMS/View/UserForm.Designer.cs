@@ -60,7 +60,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::UMS.Properties.Resources.user;
-            this.pictureBox1.Location = new System.Drawing.Point(45, 22);
+            this.pictureBox1.Location = new System.Drawing.Point(123, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(109, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -73,7 +73,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(160, 51);
+            this.label1.Location = new System.Drawing.Point(238, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(273, 43);
             this.label1.TabIndex = 1;
@@ -83,7 +83,7 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(165, 112);
+            this.label2.Location = new System.Drawing.Point(243, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 16);
             this.label2.TabIndex = 2;
@@ -93,7 +93,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(165, 139);
+            this.label3.Location = new System.Drawing.Point(243, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 16);
             this.label3.TabIndex = 3;
@@ -103,7 +103,7 @@
             // 
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(165, 286);
+            this.label4.Location = new System.Drawing.Point(243, 288);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 16);
             this.label4.TabIndex = 4;
@@ -112,7 +112,7 @@
             // nictxt
             // 
             this.nictxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.nictxt.Location = new System.Drawing.Point(303, 106);
+            this.nictxt.Location = new System.Drawing.Point(381, 108);
             this.nictxt.Name = "nictxt";
             this.nictxt.Size = new System.Drawing.Size(313, 22);
             this.nictxt.TabIndex = 5;
@@ -120,7 +120,7 @@
             // fullnametxt
             // 
             this.fullnametxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.fullnametxt.Location = new System.Drawing.Point(303, 133);
+            this.fullnametxt.Location = new System.Drawing.Point(381, 135);
             this.fullnametxt.Name = "fullnametxt";
             this.fullnametxt.Size = new System.Drawing.Size(313, 22);
             this.fullnametxt.TabIndex = 6;
@@ -128,7 +128,7 @@
             // phonetxt
             // 
             this.phonetxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.phonetxt.Location = new System.Drawing.Point(303, 162);
+            this.phonetxt.Location = new System.Drawing.Point(381, 164);
             this.phonetxt.Name = "phonetxt";
             this.phonetxt.Size = new System.Drawing.Size(313, 22);
             this.phonetxt.TabIndex = 7;
@@ -139,7 +139,7 @@
             this.addbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.addbtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addbtn.ForeColor = System.Drawing.Color.White;
-            this.addbtn.Location = new System.Drawing.Point(101, 361);
+            this.addbtn.Location = new System.Drawing.Point(179, 363);
             this.addbtn.Name = "addbtn";
             this.addbtn.Size = new System.Drawing.Size(105, 40);
             this.addbtn.TabIndex = 8;
@@ -153,7 +153,7 @@
             this.updatebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.updatebtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.updatebtn.ForeColor = System.Drawing.Color.White;
-            this.updatebtn.Location = new System.Drawing.Point(226, 361);
+            this.updatebtn.Location = new System.Drawing.Point(304, 363);
             this.updatebtn.Name = "updatebtn";
             this.updatebtn.Size = new System.Drawing.Size(105, 40);
             this.updatebtn.TabIndex = 9;
@@ -167,7 +167,7 @@
             this.deletebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.deletebtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deletebtn.ForeColor = System.Drawing.Color.White;
-            this.deletebtn.Location = new System.Drawing.Point(351, 361);
+            this.deletebtn.Location = new System.Drawing.Point(429, 363);
             this.deletebtn.Name = "deletebtn";
             this.deletebtn.Size = new System.Drawing.Size(105, 40);
             this.deletebtn.TabIndex = 10;
@@ -181,7 +181,7 @@
             this.viewbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.viewbtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewbtn.ForeColor = System.Drawing.Color.White;
-            this.viewbtn.Location = new System.Drawing.Point(480, 361);
+            this.viewbtn.Location = new System.Drawing.Point(558, 363);
             this.viewbtn.Name = "viewbtn";
             this.viewbtn.Size = new System.Drawing.Size(105, 40);
             this.viewbtn.TabIndex = 11;
@@ -195,7 +195,7 @@
             this.clearbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(103)))), ((int)(((byte)(178)))));
             this.clearbtn.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearbtn.ForeColor = System.Drawing.Color.White;
-            this.clearbtn.Location = new System.Drawing.Point(603, 361);
+            this.clearbtn.Location = new System.Drawing.Point(681, 363);
             this.clearbtn.Name = "clearbtn";
             this.clearbtn.Size = new System.Drawing.Size(105, 40);
             this.clearbtn.TabIndex = 12;
@@ -207,7 +207,7 @@
             // 
             this.dgv.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Location = new System.Drawing.Point(130, 422);
+            this.dgv.Location = new System.Drawing.Point(208, 424);
             this.dgv.Name = "dgv";
             this.dgv.RowHeadersWidth = 51;
             this.dgv.RowTemplate.Height = 24;
@@ -218,7 +218,7 @@
             // 
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(165, 168);
+            this.label5.Location = new System.Drawing.Point(243, 170);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(97, 16);
             this.label5.TabIndex = 14;
@@ -228,7 +228,7 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(165, 198);
+            this.label6.Location = new System.Drawing.Point(243, 200);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(41, 16);
             this.label6.TabIndex = 15;
@@ -238,7 +238,7 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(165, 225);
+            this.label7.Location = new System.Drawing.Point(243, 227);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(58, 16);
             this.label7.TabIndex = 16;
@@ -248,7 +248,7 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(165, 256);
+            this.label8.Location = new System.Drawing.Point(243, 258);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(36, 16);
             this.label8.TabIndex = 17;
@@ -257,7 +257,7 @@
             // emailtxt
             // 
             this.emailtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.emailtxt.Location = new System.Drawing.Point(303, 192);
+            this.emailtxt.Location = new System.Drawing.Point(381, 194);
             this.emailtxt.Name = "emailtxt";
             this.emailtxt.Size = new System.Drawing.Size(313, 22);
             this.emailtxt.TabIndex = 19;
@@ -265,7 +265,7 @@
             // addresstxt
             // 
             this.addresstxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.addresstxt.Location = new System.Drawing.Point(303, 219);
+            this.addresstxt.Location = new System.Drawing.Point(381, 221);
             this.addresstxt.Name = "addresstxt";
             this.addresstxt.Size = new System.Drawing.Size(313, 22);
             this.addresstxt.TabIndex = 20;
@@ -273,7 +273,7 @@
             // dobtxt
             // 
             this.dobtxt.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dobtxt.Location = new System.Drawing.Point(303, 250);
+            this.dobtxt.Location = new System.Drawing.Point(381, 252);
             this.dobtxt.Name = "dobtxt";
             this.dobtxt.Size = new System.Drawing.Size(313, 22);
             this.dobtxt.TabIndex = 21;
@@ -282,7 +282,7 @@
             // 
             this.adminradiobtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.adminradiobtn.AutoSize = true;
-            this.adminradiobtn.Location = new System.Drawing.Point(303, 286);
+            this.adminradiobtn.Location = new System.Drawing.Point(381, 288);
             this.adminradiobtn.Name = "adminradiobtn";
             this.adminradiobtn.Size = new System.Drawing.Size(66, 20);
             this.adminradiobtn.TabIndex = 22;
@@ -294,7 +294,7 @@
             // 
             this.studentradiobtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.studentradiobtn.AutoSize = true;
-            this.studentradiobtn.Location = new System.Drawing.Point(489, 286);
+            this.studentradiobtn.Location = new System.Drawing.Point(567, 288);
             this.studentradiobtn.Name = "studentradiobtn";
             this.studentradiobtn.Size = new System.Drawing.Size(73, 20);
             this.studentradiobtn.TabIndex = 23;
@@ -306,7 +306,7 @@
             // 
             this.staffradiobtn.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.staffradiobtn.AutoSize = true;
-            this.staffradiobtn.Location = new System.Drawing.Point(402, 286);
+            this.staffradiobtn.Location = new System.Drawing.Point(480, 288);
             this.staffradiobtn.Name = "staffradiobtn";
             this.staffradiobtn.Size = new System.Drawing.Size(54, 20);
             this.staffradiobtn.TabIndex = 24;

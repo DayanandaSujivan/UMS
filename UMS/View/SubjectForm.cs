@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using UMS.Controller;
 using UMS.Model;
@@ -14,22 +11,40 @@ namespace UMS.View
 {
     public partial class SubjectForm : Form
     {
-        private MainDashboardForm _mainDashboard;
+        private readonly MainDashboardForm _mainDashboard;
+        private readonly string _userRole;
         private int selectedSubjectId = -1;
         private Dictionary<int, string> courseMap;
 
-        public SubjectForm(MainDashboardForm mainDashboard)
+        public SubjectForm(MainDashboardForm mainDashboard, UserProfile user)
         {
             InitializeComponent();
             _mainDashboard = mainDashboard;
+            _userRole = user.Role?.ToLower();
+
             LoadCoursesToComboBox();
             LoadSubjects();
             dgv.CellContentClick += dgv_CellContentClick;
+
+            ApplyRoleRestrictions();
+        }
+
+        private void ApplyRoleRestrictions()
+        {
+            if (_userRole != "admin")
+            {
+                addbtn.Enabled = false;
+                updatebtn.Enabled = false;
+                deletebtn.Enabled = false;
+                clearbtn.Enabled = false;
+                subjecttxt.Enabled = false;
+                coursecombobox.Enabled = false;
+            }
         }
 
         private void backpicturebox_Click(object sender, EventArgs e)
         {
-            _mainDashboard.LoadForm(new CourseDashboardForm(_mainDashboard));
+            _mainDashboard.LoadForm(new CourseDashboardForm(_mainDashboard, new UserProfile { Role = _userRole }));
         }
 
         private void LoadCoursesToComboBox()
@@ -149,7 +164,6 @@ namespace UMS.View
                 coursecombobox.SelectedItem = selectedCourseName;
             }
         }
-
 
         private int GetSelectedCourseID()
         {

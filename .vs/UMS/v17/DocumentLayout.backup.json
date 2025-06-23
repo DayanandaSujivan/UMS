@@ -3,116 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\studentenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\studentenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\controller\\studentenrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\studentenrollmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\studentenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\studentenrollmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\model\\studentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\model\\studentenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\coursedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\coursedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\coursedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\coursedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|c:\\users\\dell\\desktop\\new project\\ums\\ums\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\subjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\courseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\model\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\model\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\model\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\controller\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\controller\\createadminhandleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\createadminhandleusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\maindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\model\\createadminhandleuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\model\\createadminhandleuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\model\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\model\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\model\\adminhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\model\\adminhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\settingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|C:\\Users\\DELL\\Desktop\\New project\\UMS\\ums\\view\\coursedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A98DD3-33C3-458D-A1F3-E1BE51664562}|UMS\\UMS.csproj|solutionrelative:ums\\view\\coursedashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -139,38 +79,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SubjectForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\SubjectForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs",
-              "RelativeToolTip": "UMS\\View\\SubjectForm.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAqwKgAAAAfAAAAAAAAAA==",
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\UserForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\UserForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\UserForm.cs [Design]*",
+              "RelativeToolTip": "UMS\\View\\UserForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:51:49.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubjectForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\SubjectForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\SubjectForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T09:45:13.88Z",
+              "WhenOpened": "2025-06-23T16:48:12.1Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CourseForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\CourseForm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "StudentEnrollmentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\StudentEnrollmentForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\StudentEnrollmentForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\StudentEnrollmentForm.cs [Design]",
+              "RelativeToolTip": "UMS\\View\\StudentEnrollmentForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:06:06.074Z",
+              "WhenOpened": "2025-06-23T15:00:43.39Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentEnrollmentController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\StudentEnrollmentController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controller\\StudentEnrollmentController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\StudentEnrollmentController.cs",
+              "RelativeToolTip": "UMS\\Controller\\StudentEnrollmentController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwHIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:45:09.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentEnrollment.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\StudentEnrollment.cs",
+              "RelativeDocumentMoniker": "UMS\\Model\\StudentEnrollment.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\StudentEnrollment.cs",
+              "RelativeToolTip": "UMS\\Model\\StudentEnrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:44:19.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainDashboardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\MainDashboardForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs [Design]",
+              "RelativeToolTip": "UMS\\View\\MainDashboardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T15:40:14.084Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -181,295 +146,98 @@
               "RelativeDocumentMoniker": "UMS\\Controller\\CourseController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\CourseController.cs",
               "RelativeToolTip": "UMS\\Controller\\CourseController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwEoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T05:59:52.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\Course.cs",
-              "RelativeDocumentMoniker": "UMS\\Model\\Course.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\Course.cs",
-              "RelativeToolTip": "UMS\\Model\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T05:59:22.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\CourseForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseForm.cs",
-              "RelativeToolTip": "UMS\\View\\CourseForm.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:18:10.123Z",
+              "WhenOpened": "2025-06-23T15:39:34.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CourseDashboardForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseDashboardForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\CourseDashboardForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseDashboardForm.cs",
-              "RelativeToolTip": "UMS\\View\\CourseDashboardForm.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
+              "Title": "StudentEnrollmentForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\StudentEnrollmentForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\StudentEnrollmentForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\StudentEnrollmentForm.cs",
+              "RelativeToolTip": "UMS\\View\\StudentEnrollmentForm.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAA0wKIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T18:08:36.697Z",
+              "WhenOpened": "2025-06-23T15:08:25.287Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseDashboardForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\CourseDashboardForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseDashboardForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\CourseDashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:27:24.551Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\UserForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\UserForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\UserForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\UserForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T17:12:43.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\Student.cs",
-              "RelativeDocumentMoniker": "UMS\\Model\\Student.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\Student.cs",
-              "RelativeToolTip": "UMS\\Model\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T11:00:09.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Lecturer.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\Lecturer.cs",
-              "RelativeDocumentMoniker": "UMS\\Model\\Lecturer.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\Lecturer.cs",
-              "RelativeToolTip": "UMS\\Model\\Lecturer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T10:59:56.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\UserForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\UserForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\UserForm.cs",
-              "RelativeToolTip": "UMS\\View\\UserForm.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAmwIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T06:45:04.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreateAdminHandleUser.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\CreateAdminHandleUser.cs",
-              "RelativeDocumentMoniker": "UMS\\Model\\CreateAdminHandleUser.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\CreateAdminHandleUser.cs",
-              "RelativeToolTip": "UMS\\Model\\CreateAdminHandleUser.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T05:25:44.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateAdminHandleUserController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\CreateAdminHandleUserController.cs",
-              "RelativeDocumentMoniker": "UMS\\Controller\\CreateAdminHandleUserController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\CreateAdminHandleUserController.cs",
-              "RelativeToolTip": "UMS\\Controller\\CreateAdminHandleUserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T05:25:18.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\UserProfileController.cs",
-              "RelativeDocumentMoniker": "UMS\\Controller\\UserProfileController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\UserProfileController.cs",
-              "RelativeToolTip": "UMS\\Controller\\UserProfileController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T09:30:42.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DatabaseInitializer.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Data\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "UMS\\Data\\DatabaseInitializer.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Data\\DatabaseInitializer.cs",
               "RelativeToolTip": "UMS\\Data\\DatabaseInitializer.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAmwKcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAAAJQAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T09:27:53.811Z",
+              "WhenOpened": "2025-06-23T14:37:02.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Data\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "UMS\\Data\\DatabaseConnection.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Data\\DatabaseConnection.cs",
-              "RelativeToolTip": "UMS\\Data\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "SubjectForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\SubjectForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs",
+              "RelativeToolTip": "UMS\\View\\SubjectForm.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswL0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T09:27:36.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SettingForm.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SettingForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\SettingForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SettingForm.cs",
-              "RelativeToolTip": "UMS\\View\\SettingForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T08:26:45.94Z"
+              "WhenOpened": "2025-06-23T09:51:49.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\UserProfile.cs",
-              "RelativeDocumentMoniker": "UMS\\Model\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\UserProfile.cs",
-              "RelativeToolTip": "UMS\\Model\\UserProfile.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAUwBcAAAAAAAAAAAAAAA==",
+              "Title": "SubjectForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\SubjectForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SubjectForm.cs [Design]",
+              "RelativeToolTip": "UMS\\View\\SubjectForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T08:00:41.051Z"
+              "WhenOpened": "2025-06-23T12:57:42.444Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AdminHandle.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\AdminHandle.cs",
-              "RelativeDocumentMoniker": "UMS\\Model\\AdminHandle.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Model\\AdminHandle.cs",
-              "RelativeToolTip": "UMS\\Model\\AdminHandle.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAQwAoAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "CourseForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\CourseForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseForm.cs",
+              "RelativeToolTip": "UMS\\View\\CourseForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:54:12.092Z"
+              "WhenOpened": "2025-06-22T18:18:10.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\LoginController.cs",
-              "RelativeDocumentMoniker": "UMS\\Controller\\LoginController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\Controller\\LoginController.cs",
-              "RelativeToolTip": "UMS\\Controller\\LoginController.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAA7wLEAAAA6AAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "CourseDashboardForm.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseDashboardForm.cs",
+              "RelativeDocumentMoniker": "UMS\\View\\CourseDashboardForm.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\CourseDashboardForm.cs",
+              "RelativeToolTip": "UMS\\View\\CourseDashboardForm.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIA+wB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:53:58.371Z"
+              "WhenOpened": "2025-06-22T18:08:36.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SettingForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SettingForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\SettingForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\SettingForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\SettingForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:21:57.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Signinform.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\Signinform.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs",
-              "RelativeToolTip": "UMS\\View\\Signinform.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAkwE4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:16:09.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Loginform.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\Loginform.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs",
-              "RelativeToolTip": "UMS\\View\\Loginform.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAUwEAAAACSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T07:06:30.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MainDashboardForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\MainDashboardForm.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\MainDashboardForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T18:01:21.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "MainDashboardForm.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs",
               "RelativeDocumentMoniker": "UMS\\View\\MainDashboardForm.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\MainDashboardForm.cs",
               "RelativeToolTip": "UMS\\View\\MainDashboardForm.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAqwIEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAIA7wIQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T18:20:52.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Loginform.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\Loginform.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Loginform.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\Loginform.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T17:36:31.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Signinform.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs",
-              "RelativeDocumentMoniker": "UMS\\View\\Signinform.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\New project\\UMS\\UMS\\View\\Signinform.cs [Design]",
-              "RelativeToolTip": "UMS\\View\\Signinform.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T17:36:17.023Z"
+              "WhenOpened": "2025-06-23T12:51:26.574Z",
+              "EditorCaption": ""
             }
           ]
         }

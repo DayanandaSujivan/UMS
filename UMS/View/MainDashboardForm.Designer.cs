@@ -189,6 +189,7 @@
             this.studentbtn.TabIndex = 2;
             this.studentbtn.Text = "Student";
             this.studentbtn.UseVisualStyleBackColor = false;
+            this.studentbtn.Click += new System.EventHandler(this.studentbtn_Click);
             // 
             // coursebtn
             // 

@@ -7,20 +7,36 @@ namespace UMS.View
 {
     public partial class CourseForm : Form
     {
-        private MainDashboardForm _mainDashboard;
-        private int selectedCourseId = -1; // to track selected CourseID
+        private readonly MainDashboardForm _mainDashboard;
+        private readonly string _userRole;
+        private int selectedCourseId = -1;
 
-        public CourseForm(MainDashboardForm mainDashboard)
+        public CourseForm(MainDashboardForm mainDashboard, UserProfile user)
         {
             InitializeComponent();
             _mainDashboard = mainDashboard;
+            _userRole = user.Role?.ToLower();
+
             LoadCourses();
             dgv.CellClick += dgv_CellClick;
+            ApplyRoleRestrictions();
+        }
+
+        private void ApplyRoleRestrictions()
+        {
+            if (_userRole != "admin")
+            {
+                addbtn.Enabled = false;
+                updatebtn.Enabled = false;
+                deletebtn.Enabled = false;
+                clearbtn.Enabled = false;
+                coursetxt.Enabled = false;
+            }
         }
 
         private void backpicturebox_Click(object sender, EventArgs e)
         {
-            _mainDashboard.LoadForm(new CourseDashboardForm(_mainDashboard));
+            _mainDashboard.LoadForm(new CourseDashboardForm(_mainDashboard, new UserProfile { Role = _userRole }));
         }
 
         private void addbtn_Click(object sender, EventArgs e)
