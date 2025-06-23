@@ -50,3 +50,4 @@ C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.UserForm.resources
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.exe.config
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.CourseDashboardForm.resources
 C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.CourseForm.resources
+C:\Users\DELL\Desktop\New project\UMS\UMS\obj\Debug\UMS.View.SubjectForm.resources

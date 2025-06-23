@@ -58,6 +58,7 @@
             this.subjectbtn.TabIndex = 1;
             this.subjectbtn.Text = "Subject";
             this.subjectbtn.UseVisualStyleBackColor = false;
+            this.subjectbtn.Click += new System.EventHandler(this.subjectbtn_Click);
             // 
             // CourseDashboardForm
             // 

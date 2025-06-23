@@ -23,5 +23,10 @@ namespace UMS.View
         {
             _mainDashboard.LoadForm(new CourseForm(_mainDashboard));
         }
+
+        private void subjectbtn_Click(object sender, EventArgs e)
+        {
+            _mainDashboard.LoadForm(new SubjectForm(_mainDashboard));
+        }
     }
 }
