@@ -203,6 +203,7 @@
             this.coursebtn.TabIndex = 1;
             this.coursebtn.Text = "Course & Subject";
             this.coursebtn.UseVisualStyleBackColor = false;
+            this.coursebtn.Click += new System.EventHandler(this.coursebtn_Click);
             // 
             // userbtn
             // 

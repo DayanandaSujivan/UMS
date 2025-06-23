@@ -51,16 +51,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CourseController.cs" />
     <Compile Include="Controller\CreateAdminHandleUserController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\UserProfileController.cs" />
     <Compile Include="Data\DatabaseConnection.cs" />
     <Compile Include="Data\DatabaseInitializer.cs" />
     <Compile Include="Model\AdminHandle.cs" />
+    <Compile Include="Model\Course.cs" />
     <Compile Include="Model\CreateAdminHandleUser.cs" />
     <Compile Include="Model\Lecturer.cs" />
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\UserProfile.cs" />
+    <Compile Include="View\CourseDashboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CourseDashboardForm.Designer.cs">
+      <DependentUpon>CourseDashboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CourseForm.Designer.cs">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\MainDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +107,12 @@
     <Compile Include="View\UserForm.Designer.cs">
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\CourseDashboardForm.resx">
+      <DependentUpon>CourseDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CourseForm.resx">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Loginform.resx">
       <DependentUpon>Loginform.cs</DependentUpon>
     </EmbeddedResource>
@@ -158,6 +178,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />

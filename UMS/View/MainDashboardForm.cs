@@ -17,6 +17,7 @@ namespace UMS.View
     public partial class MainDashboardForm : Form
     {
         private readonly UserProfile _user;
+        private MainDashboardForm _mainDashboard;
 
         // This constructor is used during login
         public MainDashboardForm(UserProfile user)
@@ -24,14 +25,16 @@ namespace UMS.View
             InitializeComponent();
             _user = user;
             SetupDashboard();
+            
         }
 
         // This optional constructor is only useful for testing or Designer support
-        public MainDashboardForm()
+        public MainDashboardForm(MainDashboardForm mainDashboard)
         {
             InitializeComponent();
             _user = new UserProfile { FullName = "Test User", Role = "student", ProfilePic = null };
             SetupDashboard();
+            _mainDashboard = mainDashboard;
         }
         private void SetupDashboard()
         {
@@ -119,6 +122,11 @@ namespace UMS.View
         private void userbtn_Click(object sender, EventArgs e)
         {
             LoadForm(new UserForm());
+        }
+
+        private void coursebtn_Click(object sender, EventArgs e)
+        {
+            LoadForm(new CourseDashboardForm(this));
         }
     }
 
