@@ -137,6 +137,11 @@ namespace UMS.View
         {
             LoadForm(new ExamDashboardForm(this,_user));
         }
+
+        private void timetablebtn_Click(object sender, EventArgs e)
+        {
+            LoadForm(new TimetableDashboardForm(this, _user));
+        }
     }
 
 }

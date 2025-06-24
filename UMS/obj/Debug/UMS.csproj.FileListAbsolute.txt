@@ -61,3 +61,5 @@ C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.UserForm.resources
 C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.ExamDashboardForm.resources
 C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.ExamForm.resources
 C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.MarksForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.RoomForm.resources
+C:\Users\DELL\Desktop\project\UMS\UMS\obj\Debug\UMS.View.TimetableDashboardForm.resources
