@@ -19,7 +19,7 @@ namespace UMS.View
         private readonly UserProfile _user;
         private MainDashboardForm _mainDashboard;
 
-        // This constructor is used during login
+        
         public MainDashboardForm(UserProfile user)
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace UMS.View
             
         }
 
-        // This optional constructor is only useful for testing or Designer support
+        
         public MainDashboardForm(MainDashboardForm mainDashboard)
         {
             InitializeComponent();
@@ -79,15 +79,15 @@ namespace UMS.View
 
         private void logoutbtn_Click(object sender, EventArgs e)
         {
-            // Confirm logout (optional)
+            
             DialogResult result = MessageBox.Show("Are you sure you want to logout?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
-                // Hide current dashboard
+                
                 this.Hide();
 
-                // Show login form again
+                
                 Loginform login = new Loginform();
                 login.Show();
                 this.Close();

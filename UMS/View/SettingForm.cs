@@ -48,7 +48,7 @@ namespace UMS.View
                 usernametxt.Text = _user.Username;
                 passwordtxt.Text = _user.Password;
 
-                // Load Profile Picture
+                
                 if (_user.ProfilePic != null && _user.ProfilePic.Length > 0)
                 {
                     using (var ms = new MemoryStream(_user.ProfilePic))
@@ -64,7 +64,7 @@ namespace UMS.View
         {
             try
             {
-                // Update _user object from form fields
+                
                 _user.FullName = fullnametxt.Text.Trim();
                 _user.Phone = int.TryParse(phonetxt.Text.Trim(), out int phone) ? phone : 0;
                 _user.Email = emailtxt.Text.Trim();
@@ -72,7 +72,7 @@ namespace UMS.View
                 _user.Username = usernametxt.Text.Trim();
                 _user.Password = passwordtxt.Text.Trim();
 
-                // Convert PictureBox image to byte array
+                
                 if (profilepicturebox.Image != null)
                 {
                     using (MemoryStream ms = new MemoryStream())

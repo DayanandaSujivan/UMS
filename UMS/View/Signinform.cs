@@ -50,8 +50,7 @@ namespace UMS
             if (ofd.ShowDialog() == DialogResult.OK)
             {
                 Image img = Image.FromFile(ofd.FileName);
-                /*profilepic.Image = img;
-                profilepic.SizeMode = PictureBoxSizeMode.StretchImage;*/
+                
 
                 using (MemoryStream ms = new MemoryStream())
                 {

@@ -31,14 +31,14 @@ namespace UMS
 
             try
             {
-                // 1. Validate if fields are empty
+                
                 if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
                 {
                     MessageBox.Show("Please enter both username and password.", "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
 
-                // 2. Attempt to validate login
+                
                 if (LoginController.ValidateLogin(username, password, out string role))
                 {
                     var profile = LoginController.GetUserProfile(username);
@@ -55,13 +55,13 @@ namespace UMS
                 }
                 else
                 {
-                    // 3. Invalid username or password
+                    
                     MessageBox.Show("Incorrect username or password. Please try again.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             catch (Exception ex)
             {
-                // 4. Unexpected errors
+                
                 MessageBox.Show("An error occurred during login:\n" + ex.Message, "Unexpected Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 

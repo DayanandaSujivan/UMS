@@ -184,7 +184,7 @@ namespace UMS.View
 
         private void ApplyStudentRestrictions(UserProfile user)
         {
-            // Disable editing
+            
             addbtn.Enabled = false;
             updatebtn.Enabled = false;
             deletebtn.Enabled = false;
@@ -194,7 +194,7 @@ namespace UMS.View
             examidcombobox.Enabled = false;
             markstxt.ReadOnly = true;
 
-            // Load only logged-in student ID
+            
             int studentId = MarkController.GetStudentIdByUserId(user.UserID);
             if (studentId != -1)
             {
