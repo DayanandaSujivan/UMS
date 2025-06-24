@@ -59,6 +59,7 @@
     <Compile Include="Controller\RoomController.cs" />
     <Compile Include="Controller\StudentEnrollmentController.cs" />
     <Compile Include="Controller\SubjectController.cs" />
+    <Compile Include="Controller\TimetableController.cs" />
     <Compile Include="Controller\UserProfileController.cs" />
     <Compile Include="Data\DatabaseConnection.cs" />
     <Compile Include="Data\DatabaseInitializer.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Model\Student.cs" />
     <Compile Include="Model\StudentEnrollment.cs" />
     <Compile Include="Model\Subject.cs" />
+    <Compile Include="Model\Timetable.cs" />
     <Compile Include="Model\UserProfile.cs" />
     <Compile Include="View\CourseDashboardForm.cs">
       <SubType>Form</SubType>
@@ -153,6 +155,12 @@
     <Compile Include="View\TimetableDashboardForm.Designer.cs">
       <DependentUpon>TimetableDashboardForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\TimetableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TimetableForm.Designer.cs">
+      <DependentUpon>TimetableForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,6 +215,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\TimetableDashboardForm.resx">
       <DependentUpon>TimetableDashboardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TimetableForm.resx">
+      <DependentUpon>TimetableForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\UserForm.resx">
       <DependentUpon>UserForm.cs</DependentUpon>

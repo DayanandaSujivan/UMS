@@ -35,7 +35,7 @@ namespace UMS.View
 
         private void timetablebtn_Click(object sender, EventArgs e)
         {
-
+            _mainDashboard.LoadForm(new TimetableForm(_mainDashboard, _user));
         }
     }
 }
